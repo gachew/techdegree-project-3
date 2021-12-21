@@ -25,7 +25,9 @@
 
 		<div class="form">
 		
-			<hr>
+			<div class="line">
+				<hr>
+			</div>
 
 			<form>
 				<fieldset>
@@ -58,9 +60,11 @@
 				<div class="tag">
 					<label for="state-select">State</label>
 						<select name="state" id="state-select">
-								<option value="" disabled="disabled" selected="selected" class="choose-state">
+							<div class="choose-state">
+								<option value="choose-state" disabled="disabled" selected="selected">
 									Choose a State
 								</option>
+							</div>
 									<option value="Al">Alabama</option>
 									<option value="AK">Alaska</option>
 									<option value="AZ">Arizona</option>
@@ -115,14 +119,15 @@
 					</select>
 				</div>
 				<div class="tag">
-					<label for="zip">Zip Code </label>
-					<input type="text" id="zip" name="user-zip">
+						<label for="zip">Zip Code </label>
+					<div class="code">
+						<input type="text" id="zip" name="user-zip">
+					</div>
 				</div>
 				
 				</fieldset>
 				<div class="line">
 					<hr>
-				
 				</div>
 				<fieldset>
 						<legend>Newsletter</legend>
@@ -139,7 +144,7 @@
 								<p>Newsletter Format</p>
 								<input type="radio" id="format1" name="format1">
 								<label for="format1"> HTML</label><br>
-								<input type="radio" id="format2" name="format2">
+								<input type="radio" id="format2" name="format1">
 								<label for="format2"> Plain text</label><br>
 							</div>
 							<div class="newsletter">
