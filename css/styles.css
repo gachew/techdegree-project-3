@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.form{
+    padding: 10px;
+}
+
 .title {
     background-color: #2f3944;
     font: 600;
@@ -16,13 +20,16 @@
     font: 700;
     color: #2f3944;
     text-align: center;
-    padding: 20px 12px 20px 12px;
+    padding-top: 15px;
     margin: 0px;
 }
 text{
     font: 300;
     color: #2f3944;
     text-align: center;
+}
+.zipcode{
+    max-width: 50% !important;
 }
 
 :focus:focus {
@@ -138,7 +145,7 @@ button {
 
 @media (min-width: 768px) {
     .form {
-        max-width: 600px;
+        max-width: 700px;
         margin: 0 auto;
       }
     .tag input,
@@ -157,7 +164,8 @@ button {
         text-align: left;
         flex: 0 0 130px;
      }
-     #code{
-        min-width: 25% !important;
+     .zipcode{
+        max-width: 25% !important;
     }
+
 }
