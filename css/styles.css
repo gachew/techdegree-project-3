@@ -28,7 +28,7 @@ text{
     color: #2f3944;
     text-align: center;
 }
-.zipcode{
+.code{
     max-width: 50% !important;
 }
 
@@ -164,7 +164,7 @@ button {
         text-align: left;
         flex: 0 0 130px;
      }
-     .zipcode{
+     .code{
         max-width: 25% !important;
     }
 
